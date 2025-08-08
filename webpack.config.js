@@ -11,7 +11,7 @@ module.exports = (env, { mode }) => ({
     },
     devServer: {
         static: path.resolve(__dirname, 'build'),
-        port: 8080,
+        port: 8888,
         open: true,
     },
     plugins: [
